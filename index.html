@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+  <button class="btn -theme" onclick="document.querySelector('#dialog-modal').showModal()">Open Modal</button>
+  <dialog id="dialog-modal">
+    <p>Hello There! Hello World! Welcome!</p>
+    <button class="btn" onclick="document.querySelector('#dialog-modal').close()">Close</button>
+  </dialog>
+
+  <script src="dist/main.js"></script>
+</body>
+
+</html>
