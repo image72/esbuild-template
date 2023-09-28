@@ -6,7 +6,8 @@
   },
   "scripts": {
     "build": "node esbuild.config.mjs --minify",
-    "serve": "node esbuild.config.mjs --server --watch"
+    "serve": "node esbuild.config.mjs --server --watch",
+    "start": "npm run serve"
   },
   "devDependencies": {
     "@fylgja/flex-grid": "^3.0.0",
