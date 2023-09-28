@@ -9,6 +9,7 @@
     "serve": "node esbuild.config.mjs --server --watch"
   },
   "devDependencies": {
+    "@fylgja/flex-grid": "^3.0.0",
     "esbuild-sass-plugin": "^2.15.0"
   }
 }

@@ -24,7 +24,7 @@ const ctx = await esbuild.context({
 });
 
 if (minify) {
-  await ctx.minify();
+  // await ctx.minify();
 }
 
 if (watch) {
